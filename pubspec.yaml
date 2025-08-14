@@ -1,0 +1,52 @@
+name: cinebox_app
+description: "Cinebox: catálogo de filmes/séries com Riverpod 3 dev."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.4.1
+  intl: ^0.19.0
+  collection: ^1.18.0
+
+  flutter_riverpod: ^3.0.0-dev.17
+  riverpod_annotation: ^3.0.0-dev.17
+  go_router: ^14.2.0
+
+  dio: ^5.6.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  custom_lint: ^0.8.0
+  riverpod_lint: ^3.0.0-dev.17
+
+  build_runner: ^2.5.4
+  riverpod_generator: ^3.0.0-dev.17
+  json_serializable: ^6.8.0
+
+# flutter:
+#   uses-material-design: true
+#   assets:
+#     - assets/images/
+#     - assets/icons/
+#   fonts:
+#     - family: Inter
+#       fonts:
+#         - asset: assets/fonts/Inter-Regular.ttf
+#         - asset: assets/fonts/Inter-Medium.ttf
+#           weight: 500
+#         - asset: assets/fonts/Inter-SemiBold.ttf
+#           weight: 600
