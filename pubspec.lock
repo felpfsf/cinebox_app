@@ -536,6 +536,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.1"
+  logger:
+    dependency: "direct main"
+    description:
+      name: logger
+      sha256: "55d6c23a6c15db14920e037fe7e0dc32e7cdaf3b64b4b25df2d541b5b6b81c0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.1"
   logging:
     dependency: transitive
     description:
@@ -704,6 +712,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  protobuf:
+    dependency: transitive
+    description:
+      name: protobuf
+      sha256: de9c9eb2c33f8e933a42932fe1dc504800ca45ebc3d673e6ed7f39754ee4053e
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.0"
   pub_semver:
     dependency: transitive
     description:
@@ -728,6 +744,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.0"
+  retrofit:
+    dependency: "direct main"
+    description:
+      name: retrofit
+      sha256: d6361d2e344fdc175457ab11eb5225180be99d3773286d9a2fabdf70559afdfc
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.7.1"
+  retrofit_generator:
+    dependency: "direct dev"
+    description:
+      name: retrofit_generator
+      sha256: bf8c5fc06d92de0cc79ace127a620af6dcbabaf7426da91e308a5bc3a0266c3e
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.0.0"
   riverpod:
     dependency: transitive
     description:
