@@ -30,6 +30,16 @@ analyzer:
     invalid_use_of_visible_for_testing_member: warning
     # Em times que usam print apenas em debug, mantenha como warning. Para proibir de vez, mude para 'error'
     avoid_print: warning
+    body_might_complete_normally_nullable: ignore
+  plugins: 
+    # Plugins adicionais que você pode querer ativar:
+    # - pedantic: regras de estilo do Google
+    # - lint: regras adicionais de linting
+    # - dart_code_metrics: métricas avançadas de código (complexidade, duplicação, etc)
+    # - flutter_coverage: para análise de cobertura de testes
+    # - dart_dev: para tarefas de desenvolvimento e scripts
+    - custom_lint
+
 
 linter:
   rules:
