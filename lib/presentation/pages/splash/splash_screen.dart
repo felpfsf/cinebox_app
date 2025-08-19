@@ -50,6 +50,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> with LoaderAndMessa
             );
           }
         },
+        loading: () => showLoader(),
       );
     });
     return Scaffold(
