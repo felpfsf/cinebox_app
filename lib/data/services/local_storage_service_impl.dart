@@ -1,7 +1,6 @@
 import 'package:cinebox_app/core/result/result.dart';
+import 'package:cinebox_app/data/services/local_storage_service.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-
-import './local_storage_service.dart';
 
 class LocalStorageServiceImpl implements LocalStorageService {
   LocalStorageServiceImpl({
