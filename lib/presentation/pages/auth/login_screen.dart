@@ -9,9 +9,23 @@ class LoginScreen extends ConsumerStatefulWidget {
 }
 
 class _State extends ConsumerState<LoginScreen> {
-
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Colors.blue.shade900,
+            Colors.blue.shade600,
+            Colors.blue.shade300,
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      child: Center(
+        child: Text('Login Screen'),
+      ),
+    );
   }
 }

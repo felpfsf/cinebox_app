@@ -9,7 +9,7 @@ class CheckUserLoggedCommand extends _$CheckUserLoggedCommand {
 
   Future<void> execute() async {
     state = const AsyncLoading();
-    await Future.delayed(const Duration(seconds: 2));
-    state = const AsyncData(true);
+    await Future.delayed(const Duration(milliseconds: 300));
+    state = const AsyncData(false);
   }
 }
