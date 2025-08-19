@@ -28,6 +28,7 @@ dependencies:
 
   retrofit: ^4.6.0
   logger: ^2.6.0  # for logging purpose
+  loading_animation_widget: ^1.3.0
 
 dev_dependencies:
   flutter_test:
